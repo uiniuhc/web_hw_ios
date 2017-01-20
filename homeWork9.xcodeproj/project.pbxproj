@@ -7,14 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22579520E8C9262474E5BA6D /* Pods_homeWork9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E39DABB284CB33A46E3ACE7C /* Pods_homeWork9.framework */; };
+		EA1642BF1DEC47F500B6D47E /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642BE1DEC47F500B6D47E /* mainViewController.swift */; };
+		EA1642C11DEC4CF800B6D47E /* LegiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642C01DEC4CF800B6D47E /* LegiTableViewCell.swift */; };
+		EA1642C31DEC4E2D00B6D47E /* legiStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642C21DEC4E2D00B6D47E /* legiStateViewController.swift */; };
+		EA1642C51DEC4F6600B6D47E /* commonDataStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642C41DEC4F6600B6D47E /* commonDataStructs.swift */; };
+		EA1642C71DEC53F500B6D47E /* StatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642C61DEC53F500B6D47E /* StatePickerViewController.swift */; };
+		EA1642CD1DECB67600B6D47E /* LegiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642CC1DECB67600B6D47E /* LegiViewController.swift */; };
+		EA1642CF1DECD72800B6D47E /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642CE1DECD72800B6D47E /* BillsViewController.swift */; };
+		EA1642D11DECD77000B6D47E /* CommsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642D01DECD77000B6D47E /* CommsViewController.swift */; };
+		EA1642D31DECD79E00B6D47E /* FavosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642D21DECD79E00B6D47E /* FavosViewController.swift */; };
+		EA1642D51DECD7E300B6D47E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1642D41DECD7E300B6D47E /* AboutViewController.swift */; };
+		EA220D4A1DECEDF00082EA99 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D491DECEDF00082EA99 /* BillTableViewCell.swift */; };
+		EA220D4C1DECF8150082EA99 /* CommTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D4B1DECF8150082EA99 /* CommTableViewCell.swift */; };
+		EA220D4E1DECFE770082EA99 /* CommTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D4D1DECFE770082EA99 /* CommTableViewController.swift */; };
+		EA220D501DED12530082EA99 /* LegiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D4F1DED12530082EA99 /* LegiDetailViewController.swift */; };
+		EA220D521DED198C0082EA99 /* LegiDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D511DED198C0082EA99 /* LegiDetailTableViewCell.swift */; };
+		EA220D541DED487B0082EA99 /* BillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D531DED487B0082EA99 /* BillDetailViewController.swift */; };
+		EA220D561DED5ECC0082EA99 /* CommDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D551DED5ECC0082EA99 /* CommDetailViewController.swift */; };
+		EA220D581DED6F670082EA99 /* FavoLegiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D571DED6F670082EA99 /* FavoLegiViewController.swift */; };
+		EA220D5A1DED7F080082EA99 /* FavoBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D591DED7F080082EA99 /* FavoBillViewController.swift */; };
+		EA220D5C1DED83300082EA99 /* FavoCommViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA220D5B1DED83300082EA99 /* FavoCommViewController.swift */; };
+		EA3347D61DEC1AB600C7B4E8 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3347D51DEC1AB600C7B4E8 /* BaseTableViewCell.swift */; };
 		EA5E0ACB1DEC0FBE00F4FF42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E0ACA1DEC0FBE00F4FF42 /* AppDelegate.swift */; };
 		EA5E0ACD1DEC0FBE00F4FF42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E0ACC1DEC0FBE00F4FF42 /* ViewController.swift */; };
 		EA5E0AD01DEC0FBE00F4FF42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5E0ACE1DEC0FBE00F4FF42 /* Main.storyboard */; };
 		EA5E0AD21DEC0FBE00F4FF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5E0AD11DEC0FBE00F4FF42 /* Assets.xcassets */; };
 		EA5E0AD51DEC0FBE00F4FF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5E0AD31DEC0FBE00F4FF42 /* LaunchScreen.storyboard */; };
+		EA5E0ADD1DEC115800F4FF42 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5E0ADC1DEC115800F4FF42 /* LeftViewController.swift */; };
+		EAB7A2731DECE829008BAFDF /* BillTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB7A2721DECE829008BAFDF /* BillTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86CEA9D08E1D4E45A1577C15 /* Pods-homeWork9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeWork9.release.xcconfig"; path = "Pods/Target Support Files/Pods-homeWork9/Pods-homeWork9.release.xcconfig"; sourceTree = "<group>"; };
+		8A3CDDBB64976D44BB0038B2 /* Pods-homeWork9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homeWork9.debug.xcconfig"; path = "Pods/Target Support Files/Pods-homeWork9/Pods-homeWork9.debug.xcconfig"; sourceTree = "<group>"; };
+		E39DABB284CB33A46E3ACE7C /* Pods_homeWork9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homeWork9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1642BE1DEC47F500B6D47E /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		EA1642C01DEC4CF800B6D47E /* LegiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegiTableViewCell.swift; sourceTree = "<group>"; };
+		EA1642C21DEC4E2D00B6D47E /* legiStateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = legiStateViewController.swift; sourceTree = "<group>"; };
+		EA1642C41DEC4F6600B6D47E /* commonDataStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonDataStructs.swift; sourceTree = "<group>"; };
+		EA1642C61DEC53F500B6D47E /* StatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatePickerViewController.swift; sourceTree = "<group>"; };
+		EA1642CC1DECB67600B6D47E /* LegiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegiViewController.swift; sourceTree = "<group>"; };
+		EA1642CE1DECD72800B6D47E /* BillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
+		EA1642D01DECD77000B6D47E /* CommsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommsViewController.swift; sourceTree = "<group>"; };
+		EA1642D21DECD79E00B6D47E /* FavosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavosViewController.swift; sourceTree = "<group>"; };
+		EA1642D41DECD7E300B6D47E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EA220D491DECEDF00082EA99 /* BillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
+		EA220D4B1DECF8150082EA99 /* CommTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommTableViewCell.swift; sourceTree = "<group>"; };
+		EA220D4D1DECFE770082EA99 /* CommTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommTableViewController.swift; sourceTree = "<group>"; };
+		EA220D4F1DED12530082EA99 /* LegiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegiDetailViewController.swift; sourceTree = "<group>"; };
+		EA220D511DED198C0082EA99 /* LegiDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegiDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EA220D531DED487B0082EA99 /* BillDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailViewController.swift; sourceTree = "<group>"; };
+		EA220D551DED5ECC0082EA99 /* CommDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommDetailViewController.swift; sourceTree = "<group>"; };
+		EA220D571DED6F670082EA99 /* FavoLegiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoLegiViewController.swift; sourceTree = "<group>"; };
+		EA220D591DED7F080082EA99 /* FavoBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoBillViewController.swift; sourceTree = "<group>"; };
+		EA220D5B1DED83300082EA99 /* FavoCommViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoCommViewController.swift; sourceTree = "<group>"; };
+		EA3347D51DEC1AB600C7B4E8 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		EA5E0AC71DEC0FBE00F4FF42 /* homeWork9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeWork9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5E0ACA1DEC0FBE00F4FF42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA5E0ACC1DEC0FBE00F4FF42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +70,8 @@
 		EA5E0AD11DEC0FBE00F4FF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA5E0AD41DEC0FBE00F4FF42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA5E0AD61DEC0FBE00F4FF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5E0ADC1DEC115800F4FF42 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		EAB7A2721DECE829008BAFDF /* BillTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22579520E8C9262474E5BA6D /* Pods_homeWork9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBE171204EE49811866E18CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E39DABB284CB33A46E3ACE7C /* Pods_homeWork9.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D18C9A0B0685FBAC004F69C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A3CDDBB64976D44BB0038B2 /* Pods-homeWork9.debug.xcconfig */,
+				86CEA9D08E1D4E45A1577C15 /* Pods-homeWork9.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EA5E0ABE1DEC0FBE00F4FF42 = {
 			isa = PBXGroup;
 			children = (
 				EA5E0AC91DEC0FBE00F4FF42 /* homeWork9 */,
 				EA5E0AC81DEC0FBE00F4FF42 /* Products */,
+				D18C9A0B0685FBAC004F69C9 /* Pods */,
+				CBE171204EE49811866E18CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +124,35 @@
 		EA5E0AC91DEC0FBE00F4FF42 /* homeWork9 */ = {
 			isa = PBXGroup;
 			children = (
+				EA220D531DED487B0082EA99 /* BillDetailViewController.swift */,
+				EA220D5B1DED83300082EA99 /* FavoCommViewController.swift */,
+				EA220D551DED5ECC0082EA99 /* CommDetailViewController.swift */,
+				EA220D4F1DED12530082EA99 /* LegiDetailViewController.swift */,
+				EA1642C41DEC4F6600B6D47E /* commonDataStructs.swift */,
+				EA220D511DED198C0082EA99 /* LegiDetailTableViewCell.swift */,
+				EA1642C21DEC4E2D00B6D47E /* legiStateViewController.swift */,
+				EA1642CC1DECB67600B6D47E /* LegiViewController.swift */,
+				EA220D4D1DECFE770082EA99 /* CommTableViewController.swift */,
+				EAB7A2721DECE829008BAFDF /* BillTableViewController.swift */,
 				EA5E0ACA1DEC0FBE00F4FF42 /* AppDelegate.swift */,
 				EA5E0ACC1DEC0FBE00F4FF42 /* ViewController.swift */,
+				EA5E0ADC1DEC115800F4FF42 /* LeftViewController.swift */,
 				EA5E0ACE1DEC0FBE00F4FF42 /* Main.storyboard */,
+				EA1642BE1DEC47F500B6D47E /* mainViewController.swift */,
+				EA1642CE1DECD72800B6D47E /* BillsViewController.swift */,
+				EA1642D01DECD77000B6D47E /* CommsViewController.swift */,
+				EA1642D21DECD79E00B6D47E /* FavosViewController.swift */,
+				EA1642D41DECD7E300B6D47E /* AboutViewController.swift */,
+				EA3347D51DEC1AB600C7B4E8 /* BaseTableViewCell.swift */,
 				EA5E0AD11DEC0FBE00F4FF42 /* Assets.xcassets */,
 				EA5E0AD31DEC0FBE00F4FF42 /* LaunchScreen.storyboard */,
 				EA5E0AD61DEC0FBE00F4FF42 /* Info.plist */,
+				EA1642C61DEC53F500B6D47E /* StatePickerViewController.swift */,
+				EA220D491DECEDF00082EA99 /* BillTableViewCell.swift */,
+				EA1642C01DEC4CF800B6D47E /* LegiTableViewCell.swift */,
+				EA220D4B1DECF8150082EA99 /* CommTableViewCell.swift */,
+				EA220D571DED6F670082EA99 /* FavoLegiViewController.swift */,
+				EA220D591DED7F080082EA99 /* FavoBillViewController.swift */,
 			);
 			path = homeWork9;
 			sourceTree = "<group>";
@@ -71,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA5E0AD91DEC0FBE00F4FF42 /* Build configuration list for PBXNativeTarget "homeWork9" */;
 			buildPhases = (
+				7A474E0600EC715BC9A92F3C /* 📦 Check Pods Manifest.lock */,
 				EA5E0AC31DEC0FBE00F4FF42 /* Sources */,
 				EA5E0AC41DEC0FBE00F4FF42 /* Frameworks */,
 				EA5E0AC51DEC0FBE00F4FF42 /* Resources */,
+				3671A07BA723E58AE1EDEE17 /* 📦 Embed Pods Frameworks */,
+				6DAA4A58EF073F0D3BA72B58 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +192,8 @@
 				TargetAttributes = {
 					EA5E0AC61DEC0FBE00F4FF42 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D5PCSZJATP;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +229,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3671A07BA723E58AE1EDEE17 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-homeWork9/Pods-homeWork9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAA4A58EF073F0D3BA72B58 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-homeWork9/Pods-homeWork9-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A474E0600EC715BC9A92F3C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA5E0AC31DEC0FBE00F4FF42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1642C11DEC4CF800B6D47E /* LegiTableViewCell.swift in Sources */,
+				EA3347D61DEC1AB600C7B4E8 /* BaseTableViewCell.swift in Sources */,
+				EA1642D11DECD77000B6D47E /* CommsViewController.swift in Sources */,
+				EA5E0ADD1DEC115800F4FF42 /* LeftViewController.swift in Sources */,
+				EA220D581DED6F670082EA99 /* FavoLegiViewController.swift in Sources */,
+				EA220D5C1DED83300082EA99 /* FavoCommViewController.swift in Sources */,
+				EA220D501DED12530082EA99 /* LegiDetailViewController.swift in Sources */,
+				EA1642CF1DECD72800B6D47E /* BillsViewController.swift in Sources */,
+				EA1642BF1DEC47F500B6D47E /* mainViewController.swift in Sources */,
 				EA5E0ACD1DEC0FBE00F4FF42 /* ViewController.swift in Sources */,
+				EA220D4E1DECFE770082EA99 /* CommTableViewController.swift in Sources */,
+				EA1642C51DEC4F6600B6D47E /* commonDataStructs.swift in Sources */,
+				EA220D4A1DECEDF00082EA99 /* BillTableViewCell.swift in Sources */,
+				EA220D541DED487B0082EA99 /* BillDetailViewController.swift in Sources */,
+				EA1642C31DEC4E2D00B6D47E /* legiStateViewController.swift in Sources */,
+				EA1642D31DECD79E00B6D47E /* FavosViewController.swift in Sources */,
+				EA220D4C1DECF8150082EA99 /* CommTableViewCell.swift in Sources */,
+				EA220D561DED5ECC0082EA99 /* CommDetailViewController.swift in Sources */,
+				EA1642D51DECD7E300B6D47E /* AboutViewController.swift in Sources */,
+				EA1642C71DEC53F500B6D47E /* StatePickerViewController.swift in Sources */,
 				EA5E0ACB1DEC0FBE00F4FF42 /* AppDelegate.swift in Sources */,
+				EAB7A2731DECE829008BAFDF /* BillTableViewController.swift in Sources */,
+				EA220D5A1DED7F080082EA99 /* FavoBillViewController.swift in Sources */,
+				EA1642CD1DECB67600B6D47E /* LegiViewController.swift in Sources */,
+				EA220D521DED198C0082EA99 /* LegiDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +427,12 @@
 		};
 		EA5E0ADA1DEC0FBE00F4FF42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3CDDBB64976D44BB0038B2 /* Pods-homeWork9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D5PCSZJATP;
 				INFOPLIST_FILE = homeWork9/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hanqiu-test.chuiniu1st.homeWork9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +442,12 @@
 		};
 		EA5E0ADB1DEC0FBE00F4FF42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CEA9D08E1D4E45A1577C15 /* Pods-homeWork9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D5PCSZJATP;
 				INFOPLIST_FILE = homeWork9/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hanqiu-test.chuiniu1st.homeWork9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +474,7 @@
 				EA5E0ADB1DEC0FBE00F4FF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
